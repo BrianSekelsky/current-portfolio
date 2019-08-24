@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /music/
+---
+
+<div id="load-content" class="row w-100 h-100">
+  <div class="col-lg-6 col-12 d-flex flex-wrap p-5">
+    <div class="d-flex flex-row w-100">
+        <div class="d-flex flex-column align-items-center justify-content-center mx-auto">
+            <iframe src="https://open.spotify.com/embed/artist/4GYawQUhnxYepBC7WhUJ4N" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-12 p-5 my-auto">
+        {% include main-text.html %}
+  </div>
+</div>
+
+<script>
+  function pageLoad() {
+    document.getElementById("load-content").style.opacity = "1.0";
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+  }
+
+  window.onload = pageLoad;
+</script>

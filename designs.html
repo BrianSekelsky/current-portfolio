@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: /designs/
+---
+
+<div id="load-content" class="row w-100 h-100">
+  <div class="col-lg-6 col-12 d-flex flex-wrap p-5">
+    <div class="d-flex flex-row">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <a href="https://www.behance.net/gallery/84522235/a-clear-head"><img src="/images/aClearHead.png" class="img-fluid grid-image"></a>
+            <a href="https://www.behance.net/gallery/84522131/Winter-Foe-Get-Defensive-album-art"><img src="/images/getDefensive.jpg" class="img-fluid grid-image"></a>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <a href="https://www.behance.net/gallery/84522187/magic-hand"><img src="/images/magichand.png" class="img-fluid grid-image"></a>
+            <a href="https://www.behance.net/gallery/84522203/escape-the-world"><img src="/images/EscapeTheWorldSingle.png" class="img-fluid grid-image"></a>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-12 p-5 my-auto">
+        {% include main-text.html %}
+  </div>
+</div>
+
+<script>
+  function pageLoad() {
+    document.getElementById("load-content").style.opacity = "1.0";
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+  }
+
+  window.onload = pageLoad;
+</script>

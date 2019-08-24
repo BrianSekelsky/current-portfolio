@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /programs/
+---
+
+<div id="load-content" class="row w-100 h-100">
+  <div class="col-lg-6 col-12 d-flex flex-wrap p-5">
+    <div class="d-flex flex-row">
+        <div class="d-flex w-50 flex-column align-items-center justify-content-center mx-auto">
+            <a href="https://briansekelsky.github.io/mpc/"><img src="/images/mpc-old.png" class="img-fluid grid-image"></a>
+            <a href="https://winter-foe.itch.io/wacky-nautical-adventure"><img src="/images/wacky.png" class="img-fluid grid-image"></a>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-12 p-5 my-auto">
+        {% include main-text.html %}
+  </div>
+</div>
+
+<script>
+  function pageLoad() {
+    document.getElementById("load-content").style.opacity = "1.0";
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+  }
+
+  window.onload = pageLoad;
+</script>

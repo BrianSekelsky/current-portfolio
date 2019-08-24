@@ -1,0 +1,81 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .portfolio-container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 500;
+    transition: color 1.0 ease-in-out;
+}
+
+a {
+    font-weight: 700;
+}
+
+#special-link {
+    font-weight: 500;
+    color: black;
+}
+
+.img-fluid {
+    max-height: 600px;
+}
+
+#load-content {
+    opacity: 0.0;
+    transition: opacity 1.0s ease-in-out;
+}
+
+i {
+    padding-right: 30px;
+    font-size: 2rem;
+    color: black;
+}
+
+#twitter:hover {
+    color: #38A1F3;
+    cursor: pointer;
+}
+#linkedin:hover {
+    color: #0077B5;
+    cursor: pointer;
+}
+#youtube:hover {
+    color: #ED3833;
+    cursor: pointer;
+}
+
+#soundcloud:hover {
+    color: #ff7700;
+    cursor: pointer;
+}
+
+.grid-image {
+    box-shadow: 0;
+    z-index: 0;
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.grid-image:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 1;
+    cursor: pointer;
+}
+
+a:hover {
+    z-index: 1;
+}
